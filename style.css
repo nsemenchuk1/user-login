@@ -1,0 +1,68 @@
+html {
+  background: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: auto;
+  background: rgba(255, 255, 255, 0.8);
+  width: 600px;
+  text-align: center;
+  border: solid 2px purple;
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-bottom: 140px;
+}
+
+div {
+  background: purple;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+hr {
+  width: 300px;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#forgot {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+}
+
+#forgot:hover {
+  text-decoration: underline;
+  color: yellow;
+  transition: text-decoraction 1s, color yellow 1s;
+}
+
+#login {
+  font-weight: bold;
+}
+
+#button {
+  background: green;
+  font-size: 20px;
+  color: white;
+  padding: 5px 13px 5px 13px;
+}
+
+#company {
+  width: 400px;
+}
+
+.socials {
+  width: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
